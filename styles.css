@@ -94,6 +94,10 @@ h2{
     padding: 10px;
     font-size: 2em;
 }
+
+.imgsGallery h2{
+    display: none;
+}
     
 
 p{
@@ -101,10 +105,6 @@ p{
     padding: 10px;
     font-size: 1.25em;
 }
-
-/* figcaption, label, input, small {font-size: 1em;} */
-
-
 
 /* #about, #gallery section */
 
@@ -131,6 +131,7 @@ p{
 }
 
 .imgCap {
+    font-size: 14px;
     padding: 10px;
     align-items: center;
     text-transform: uppercase;
